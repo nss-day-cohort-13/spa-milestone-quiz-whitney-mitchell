@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+}
+
+/*Padding at top of body to prevent fixed nav from overlapping main content.*/
+body {
+	padding-top: 80px;
+	background-color: ivory;
+}
+
+nav {
+	background-color: #35aaaf;
+}
+
+.input-group {
+	padding: 20px;
+}
+
+h1 {
+	padding: 15px;
+}
+
+.cardContainer {
+	width: 100%;
+}
+
+

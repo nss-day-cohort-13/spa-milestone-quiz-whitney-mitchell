@@ -14,7 +14,7 @@
       "model": "Sentra",
       "year": "2000",
       "price": "2999",
-      "color": "white",
+      "color": "RoyalBlue",
       "purchased": false,
       "description": "You'll be surprised at the great condition of this 16 year old car. A steal, at only 100000 miles."
     },
@@ -23,27 +23,9 @@
       "model": "Explorer",
       "year": "2014",
       "price": "12999",
-      "color": "blue",
+      "color": "OliveDrab",
       "purchased": false,
       "description": "Start your mini-adventure in this mini-SUV with just 75000 miles on it."
-    },
-    {
-      "make": "Honda",
-      "model": "Civic",
-      "year": "2010",
-      "price": "10999",
-      "color": "black",
-      "purchased": false,
-      "description": "Built to last, a great investment, and only 15000 miles driven."
-    },
-    {
-      "make": "Toyota",
-      "model": "Corolla",
-      "year": "2011",
-      "price": "11999",
-      "color": "blue",
-      "purchased": false,
-      "description": "Something about spending life in your car. But that's a good thing..."
     }
   ]
 }

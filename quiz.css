@@ -24,10 +24,20 @@ h1 {
 	width: 100%;
 }
 
+/*Fixes uneven column-height issue.*/
+.row {
+	display: table;
+}
+
+[class*="col-"] {
+	float: none;
+	display: table-cell;
+	vertical-align: top;
+}
+
 .card {
-border-style: solid;
-border-width: 3px;
-min-height:
+	border-style: solid;
+	border-width: 3px;
 }
 
 .gray {

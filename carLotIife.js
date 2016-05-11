@@ -17,7 +17,6 @@ var CarLot = (function() {
 				inventory = JSON.parse(this.responseText);
 				callback(inventory.cars);
 //Above, callback inventory, pass it all car info.
-				console.log(inventory.cars);
 			});
 		}
 	}

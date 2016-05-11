@@ -24,4 +24,14 @@ h1 {
 	width: 100%;
 }
 
+.card {
+border-style: solid;
+border-width: 3px;
+min-height:
+}
 
+.gray {
+	border-style: solid;
+	border-width: 10px;
+	background-color: lightgray;
+}

@@ -1,11 +1,27 @@
 var CarLot = (function (origCarLot) {
-	origCarLot.activateEvents = function () {
-		var prevCard = null;
-		var carCon = document.getElementById('carContainer');
+		var cardClick = document.getElementsByClassName('card');
 		var textBox = document.getElementById('textInput');
-		carCon.addEventListener("click", function(event) {
-			console.log(event);
-		});
+		// var thisCard = null;
+
+	origCarLot.activateEvents = function () {
+		for (var i = 0; i < cardClick.length; i++) {
+			console.log(cardClick[i]);
+			cardClick[i].addEventListener("click", CarLot.toggleCard);
+		}
+
+
+
+
+
+		// 		thisCard = event.target.parentNode;
+		// 		console.log("card", thisCard);
+		// 		var prevCard = thisCard;
+
+
+		// })
+// console.log(thisCard);
 	};
+
 	return origCarLot;
-}(CarLot || {}));
+})(CarLot || {});
+
